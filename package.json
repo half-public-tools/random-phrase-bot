@@ -1,0 +1,16 @@
+{
+    "name": "random-phrase-bot",
+    "description": "A telegram bot that responds with a random phrase from a predetermined list",
+    "version": "1.0.0",
+    "author": "Ilya Nikishin",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "promise-fs": "^2.1.1",
+        "telegraf": "^4.8.4"
+    }
+}
